@@ -181,7 +181,7 @@ export default function BulkEditing() {
                 if (theme.palette.mode === 'light') {
                   return 'rgba(255, 170, 170, 0.3)';
                 }
-                return darken('rgba(255, 170, 170, 1)', 0.7);
+                return darken('rgb(197, 124, 124)', 0.7);
               },
             },
             [`& .${gridClasses.row}.row--edited`]: {
@@ -189,7 +189,7 @@ export default function BulkEditing() {
                 if (theme.palette.mode === 'light') {
                   return 'rgba(255, 254, 176, 0.3)';
                 }
-                return darken('rgba(255, 254, 176, 1)', 0.6);
+                return darken('rgb(205, 203, 59)', 0.6);
               },
             },
           }}
